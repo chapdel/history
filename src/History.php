@@ -26,7 +26,8 @@ class History extends Model
      * @var array
      */
     protected $casts = [
-        'meta' => 'array'
+        'meta' => 'array',
+        'performed_at' => 'datetime',
     ];
 
     /**
