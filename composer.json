@@ -1,11 +1,11 @@
 {
-    "name": "panoscape/history",
+    "name": "chapdel/history",
     "description": "Eloquent model history tracking for Laravel",
     "keywords": ["laravel", "log", "history", "tracking", "eloquent", "model"],
     "homepage": "https://github.com/seancheung/history",
     "require": {
-        "php": "^7.2|^7.2.5|^7.3|^8.0",
-        "illuminate/support": "^6.0|^7.0|^8.0|^9.0"
+        "php": "^7.2|^7.2.5|^7.3|^8.0|^8.1|^8.2",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0"
     },
     "license": "MIT",
     "authors": [
@@ -23,17 +23,6 @@
         "test": "phpunit",
         "test:dist": "phpunit --coverage-clover clover.xml",
         "test:coverage": "php-coveralls -v -x clover.xml -o ./logs --exclude-no-stmt"
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Panoscape\\History\\Tests\\": "tests/"
-        }  
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^8.3|^8.4|^9.0",
-        "orchestra/testbench": "^4.8|^5.2|^6.2|^7.5",
-        "mockery/mockery": "^1.2",
-        "php-coveralls/php-coveralls": "^2.1"
     },
     "extra": {
         "laravel": {
